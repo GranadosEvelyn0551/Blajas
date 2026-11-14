@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Productos y Servicios - Black Hat OrganizatiOn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="BHO_logo.png" alt="Black Hat Organization Logo" class="logo-principal">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.php">Productos</a>
+        <a href="servicios.php">Servicios</a>
+        <a href="carrito.php" class="dif"><img src="cartw.png" class="carrito-b"></a>
+        <a href="rip.html">Cuenta</a>
+    </nav>
+
+    <div class="contenido">
+        <h1 class="titulo-pagina">NUESTROS SERVICIOS</h1>
+        <p class="subtitulo-pagina">Soluciones integrales de maldad profesional diseñadas a tu medida..creemos</p>
+
+        <div class="catalogo">
+            <!--primer serviciO -->
+            <div class="item-card">
+                <img src="RESORT07.png" alt="Vacaciones" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Hotel Black Hat para secuaces inútiles</h2>
+                    <p>¿Están tus secuaces tan cansados ​​que su torpeza natural se ha multiplicado por diez? ¿Se atreven a pedir un descanso? ​​Pues estás
+                        de suerte, porque por primera vez puedes enviarlos al balneario Black Hat para secuaces inútiles.</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="11">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--segundo serviciO -->
+            <div class="item-card">
+                <img src="ELBUITRE01.png" alt="Limpieza y Erradicacion" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Seguros El Buitre</h2>
+                    <p>¿Tu nave choco contra un ciervo espacial?, ¿quizas destrozaste el motor en un ataque de ira?, ¡No te preocupes!, con el 
+                        seguro "El Buitre" de Black Hat Organization, aseguramos tu nave y te proporcionamos una nueva gratis. Al contratar nuestra 
+                        exclusiva cobertura de lujo, ¡no importa si tu accidente es insignificante o grave!</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="12">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--tercer servicio-->
+            <div class="item-card">
+                <img src="HEROEXT01.png" alt="Exterminio de Heroes" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Exterminio de Heroes</h2>
+                    <p>Nuestro personal esta entrenado para localizar, perseguir y ejecutar a cualquier heroe que se atreva a interponerse en el 
+                        camino de nuestros disfraces mediante metodos dolorosos, poco eticos y poco ortodoxos que permaneceran ocultos a los clientes 
+                        debido a su naturaleza espantosa. Sin embargo, por un costo adicional, Black Hat Organization esta mas que dispuesta a 
+                        compartir detalles e incluso grabaciones del acto</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="13">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--cuarto serviciO-->
+            <div class="item-card">
+                <img src="POSSESION00.jpg" alt="Posesiones consentidO" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Posesion de objetos</h2>
+                    <p>¿Cansado de que los dioses encanten armas para los héroes y no puedas derrotarlos? ¿Te gustaría tener tu propio objeto encantado? 
+                        ¡Pues con el servicio de posesión puedes conseguirlo! El mismísimo Lord Black Hat se encargará del asunto</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="14">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--quinto serviciO-->
+            <div class="item-card">
+                <img src="pasteles.jpg" alt="pasteleriA" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Pastel hasta su casA</h2>
+                    <p>Al ser miembro de nuestra malvada organizacion, tendras como servicio pasteles hecho con un horrible amor..</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="15">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--sextO serviciO-->
+            <div class="item-card">
+                <img src="tintoreria.jpg" alt="ropA" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Tintoreria</h2>
+                    <p>¿Su traje malvado cuenta con pinchos y de mas detalles que no cualquiera se atreve a arreglar?, ¡No se preocupe! con nosotros 
+                        su traje quedara 
+                        perfecto para enfrentar a su heroe</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="16">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--septimo serviciO-->
+            <div class="item-card">
+                <img src="BHCAMP01.png" alt="campamento" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Campamento para jovenes Villanos</h2>
+                    <p>Entrenamiento y asesoramiento para niños superdotados para transformarlos de diablillos malvados en villanos temibles</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="17">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--octavi serviciO-->
+            <div class="item-card">
+                <img src="D3M01.png" alt="demencia" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>D3M Activa</h2>
+                    <p>Asset D3M es uno de los servicios más solicitados en organizaciones Black Hat. Asset D3M funcione, debe proporcionar información 
+                        importante a 
+                        través de correo electrónico virtual (V-mail), que se enviará a una cola y llegará en el momento que le convenga a la organización. 
+                        Su información se 
+                        guardará en la base de datos y se procesará.</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="18">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--noveno serviciO-->
+            <div class="item-card">
+                <img src="INSTITUTE01.png" alt="institutO" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Instituto de la Organización Black Hat</h2>
+                    <p>La organización Black Hat es propietaria del instituto más prestigioso 
+                        para jóvenes aspirantes a villanos. Allí se encuentran hijos de los 
+                        criminales más infames y despiadados del mundo que desean seguir sus 
+                        pasos en el mundo del crimen y, en raras ocasiones, niños que odian a 
+                        sus padres héroes, o jóvenes héroes renegados que creen que el camino 
+                        del mal es el mejor.</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="19">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--diez serviciO-->
+            <div class="item-card">
+                <img src="CONS02.png" alt="consultas" class="img-cuadrada">
+                <div class="item-info">
+                    <h2>Consulta para villanos</h2>
+                    <p>Todo villano necesita una mano amiga que le asesore para mantener sus actividades malvadas en el lugar correcto.
+                        Nuestra consultoría para villanos le ayuda a gestionar su negocio correctamente. Entendemos que cada villano 
+                        tiene un estilo único, por lo que nuestro personal le brindará una consultoría personalizada que se adapte a 
+                        sus necesidades específicas. El precio de este servicio dependerá de la complejidad del caso y, por supuesto,
+                        del asesor asignado.</p>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="20">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Granados Aguirre Evelyn Ivonne</p>
+        <p>Num.Control: 24308051280551</p>
+    </footer>
+</body>
+</html>
